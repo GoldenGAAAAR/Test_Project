@@ -1,0 +1,28 @@
+
+devices:
+  R1:
+    connections:
+      cli:
+        ip: 192.168.70.2
+        protocol: ssh -oKexAlgorithms=diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-rsa -c aes256-cbc
+    credentials:
+      default:
+        password: 'test1'
+        username: TestRouter1
+      enable:
+        password: 'admin'
+    os: iosxe
+    type: iosxe
+  R2:
+    connections:
+      cli:
+        ip: 192.168.20.2
+        protocol: ssh -oKexAlgorithms=diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-rsa -c aes256-cbc
+    credentials:
+      default:
+        password: 'test2'
+        username: TestRouter2
+      enable:
+        password: 'admin'
+    os: iosxe
+    type: iosxe

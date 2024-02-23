@@ -1,0 +1,7 @@
+max_failures: 3
+smtp_server: 'smtp.gmail.com'
+smtp_username: 'onetrueking221@gmail.com'
+smtp_password: 'svzvfyhpjqdmteae'
+email_form:  'onetrueking221@gmail.com'
+email_to: 'novikovwarlock@yandex.ru'
+log_path: '/home/alex/pyats/test_project/test.log'
